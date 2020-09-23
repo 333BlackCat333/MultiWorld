@@ -1,6 +1,6 @@
 ---
-### Файл с русским языком от SteinsSquad
-### Russian language by SteinsSquad
+### Файл с русским языком от BlackCatDeveloper
+### Russian language by BlackCatDeveloper
 ## Commands:
 
 not-perms: 'У вас нет прав использовать эту команду!'
@@ -17,12 +17,12 @@ help-5: '§2/mw update §fУстановить спавн, лобби или с�
 help-6: '§2/mw delete §fУдалить мир'
 help-7: '§2/mw info §fУзнать информацию о мире'
 help-8: '§2/mw gamerule §fНастроить мир'
-help-9: '§2/mw manage §fDisplays form for managing with worlds'
-help-10: '§2/mw rename §fRenames the world'
+help-9: '§2/mw manage форма управления мирами'
+help-10: '§2/mw rename §fИзменяет имя мира'
 
 # Create Command:
 create-usage: '§cИспользование: §7/mw create <имя> [сид] [генерация]'
-create-exists: '§cLevel {%0} is already generated!'
+create-exists: '§cМир {%0} уже сгенерирован!'
 create-gennotexists: 'Генерация {%0} не найдена.'
 create-generating: 'Генерирование мира {%0}...'
 create-done: 'Мир {%0} с сидом {%1} и генератором {%2} был создан.'
@@ -82,11 +82,11 @@ gamerule-notexists: '§cНастройка {%0} не найдена.'
 gamerule-done: '§aНастройка {%0} в мире {%1} была изменена на {%2}.'
 
 # Rename Command
-rename-usage: '§cUsage: §7/mw rename <from> <to>'
-rename-exists: '§cLevel with name {%0} already exists.'
-rename-levelnotfound: '§cLevel {%0} does not exists.'
-rename-done: '§aName of level {%0} was changed to {%1}.'
+rename-usage: '§cИспользуйте: §7/mw rename <from> <to>'
+rename-exists: '§cМир с именем {%0} уже существует.'
+rename-levelnotfound: '§cМир {%0} не существует.'
+rename-done: '§aИмя мира {%0} изменено на {%1}.'
 
 # Forms
-forms-invalid: '§cInvalid result.'
+forms-invalid: '§cОшибка!.'
 ...
